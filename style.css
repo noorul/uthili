@@ -28,7 +28,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 
 body {
-	margin: 1.5em 15%;
+  margin: 1.5em 15%;
 }
 
 /* =Header
@@ -68,13 +68,58 @@ body {
 /* =Content
 -------------------------------------------------------------- */
 
-.post {
-	margin: 0 0 3em 0;	
-}
+/* .post { */
+/* 	margin: 0 0 3em 0;	 */
+/* } */
+
 .entry-content, .entry-summary {
-	margin: 1.5em 0 0 0;
+	margin: 1.625em 0 0;
 }
 
+/* Entry content */
+.entry-content h1,
+.entry-content h2 {
+	color: #000;
+	font-weight: bold;
+	margin: 0 0 .8125em;
+}
+.entry-content h3 {
+	font-size: 10px;
+	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", "Helvetica Nueue", Helvetica, sans-serif;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+
+.entry-content table {
+	margin: 0 0 1.625em;
+}
+.entry-content .link-list {
+	list-style: none;
+	margin-left: 0;
+}
+.entry-content .link-list ul {
+	list-style: square;
+	margin: 0 0 1.625em 1.625em;
+}
+
+/* Entry title */
+.entry-title {
+	clear: both;
+	color: #000;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding-bottom: .3em;
+}
+.entry-title,
+.entry-title a {
+	color: #000;
+	text-decoration: none;
+}
+.entry-title a:hover {
+	color: #1778c2;
+}
 
 /* =Navigation
 -------------------------------------------------------------- */
