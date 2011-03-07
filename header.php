@@ -39,7 +39,9 @@
 			</div><!-- #branding -->
 			
 			<div id="access">
-				<div class="skip-link"><a href="#content" title="<?php _e( 'Skip to content', 'uthili' ) ?>"><?php _e( 'Skip to content', 'uthili' ) ?></a></div>
+<!--
+			  <div class="skip-link"><a href="#content" title="<?php _e( 'Skip to content', 'uthili' ) ?>"><?php _e( 'Skip to content', 'uthili' ) ?></a></div>
+-->
 				<?php wp_page_menu( 'sort_column=menu_order' ); ?>			
 			</div><!-- #access -->
 			
