@@ -11,5 +11,10 @@
 			<ul class="xoxo">
 				<?php dynamic_sidebar('secondary-widget-area'); ?>
 			</ul>
+                        <div id="friendfeed" class="widget-area">
+                            <h4>Elsewhere on the Net</h4>
+                            <?php include(TEMPLATEPATH.'/friendfeed.php'); ?>
+                        </div> <!-- #friendfeed -->
+
 		</div><!-- #secondary .widget-area -->
 <?php endif; ?>		
