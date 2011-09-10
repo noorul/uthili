@@ -20,7 +20,8 @@
 	
 	<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('rss2_url'); ?>" title="<?php printf( __( '%s latest posts', 'uthili' ), wp_specialchars( get_bloginfo('name'), 1 ) ); ?>" />
 	<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('comments_rss2_url') ?>" title="<?php printf( __( '%s latest comments', 'uthili' ), wp_specialchars( get_bloginfo('name'), 1 ) ); ?>" />
-	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />	
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+        <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans:bold" />
 </head>
 
 <body <?php body_class(); ?>>
