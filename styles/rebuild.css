@@ -87,7 +87,7 @@ blockquote em, blockquote i, blockquote cite {
 
 pre { 
       background: #f4f4f4;
-      font: 13px "Courier 10 Pitch",Courier,monospace;
+      font: 13px "Droid Sans Mono", "Courier 10 Pitch", Courier, monospace;
       line-height: 1.5;
       overflow: auto; 
       width: 90%; 
