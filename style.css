@@ -132,7 +132,7 @@ body {
   background: #fff;
 }
 
-.entry-content, .entry-summary {
+.entry-content, .entry-summary, .entry-utility {
 	margin: 1.625em 0 0;
 }
 
