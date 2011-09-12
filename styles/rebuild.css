@@ -141,6 +141,7 @@ sub {
 	top: .5ex;
 }
 
+pre.src { background-color: black; color: gray }
 
 /*
 
